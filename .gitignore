@@ -83,29 +83,31 @@ celerybeat-schedule
 # SageMath parsed files
 *.sage.py
 
-# dotenv
+# Environments
 .env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
 # .bat files
 activate.bat 
 
-# virtualenv
-.venv
-venv/
-ENV/
-
 # Spyder project settings
 .spyderproject
+.spyproject
 
 # Rope project settings
 .ropeproject
 
 # PyCharm
 .idea
+.idea/workspace.xml
 
 # PyPI
 .pypirc
-
 
 # VSCode
 settings.json
@@ -114,6 +116,19 @@ launch.json
 
 # Vim
 *.swp
+
+# mypy
+.mypy_cache/
+.idea/workspace.xml
+
+*.iml
+.tox
+*.h5
+*yacctab.py
+*lextab.py
+
+# mkdocs documentation
+/site
 
 
 
